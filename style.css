@@ -1,0 +1,301 @@
+/* add google font-family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .............add background........................ */
+.banner {
+    background: #161616;
+    border-radius: 30px;
+    position: absolute;
+    width: 1355px;
+    height: 646px;
+    margin-top: 44px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.flex-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+
+}
+
+/* ..................style first part start
+............... */
+.text-info {
+    margin: 10px 60px;
+}
+
+.big-title {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.button {
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px;
+    color: #FFFFFF;
+}
+
+.button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.player-img img {
+    position: absolute;
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-right: 40px;
+}
+
+/* ..................style first part end
+............... */
+/* ..................style second part start
+............... */
+.match-list {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.second-part {
+    margin-top: 10px;
+}
+
+.match-list {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.white-color {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+}
+
+.add-link {
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+}
+
+.list,
+a,
+.add-link {
+    text-decoration: none;
+}
+
+.list h2 {
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.red-color {
+    background: #DD0000;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+}
+
+.second-part {
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+/* .........blog-information............... */
+.second-part {
+    display: flex;
+    width: 1321px;
+    height: 646px;
+
+}
+
+.blog {
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-info {
+    padding: 10px;
+}
+
+.border {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.icon i {
+    padding-left: 20px;
+    color: gray;
+}
+
+.info-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.second-flex {
+    width: 312px;
+    height: 362px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.second-banner {
+    padding-right: 200px;
+}
+
+/* ..............last part.............. */
+.final {
+    background-color:
+        #161616;
+    position: absolute;
+    width: 1600px;
+    height: 444px;
+    left: 0px;
+    top: 2092px;
+}
+
+#last {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+hr {
+    width: 1320px;
+    height: 0px;
+    left: 140px;
+    top: 2330px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ancor-tag {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.ancor-tag a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+    padding-right: 30px;
+}
+
+/* social icons ..............*/
+.social-icon {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.fa-youtube {
+    color: #FF0000;
+    padding-left: 20px;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-facebook {
+    color: #4267B2;
+    padding-right: 20px;
+}
+
+/* .................Responsive Web Design Media Queries..................... */
+/* ..........Medium devices (tablets, 768px and up)
+...................................................... */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .banner {
+        width: 100%;
+    }
+
+    .match-list .list {
+        justify-content: space-between;
+    }
+
+    .second-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player-img img {
+        align-items: center;
+    }
+
+    .blog {
+        width: 357px;
+        height: 414.21px;
+    }
+
+    .second-flex {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+/* ..............Small devices (landscape phones, 576px and up)
+.................................... */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .banner {
+        background: #161616;
+        border-radius: 20px;
+        position: absolute;
+        width: 334px;
+        margin-top: 34px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .second-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player-img img {
+        align-items: center;
+    }
+
+    .blog {
+        width: 335px;
+        height: 388.69px;
+    }
+
+    .second-flex {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+}
